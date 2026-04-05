@@ -5,13 +5,17 @@
 <!--head part-->
 <head>
 
+    <meta charset="UTF-8">
+    <meta name="--Description" content="Movie ticket booking website">
+    <meta name="keywords" content="Movie Ticket booking">
+    <meta name="author" content ="Balaji Patre">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="refresh" content="146">
 
+<link rel="icon"type=image/jpg href="Images/4.favicons.png">
     
     <!--Titel for the website-->
-    <title>Movie Tickets</title>
-  
-   
-   
+    <title>Movie Tickets</title>   
 
 
 </head>
@@ -19,17 +23,20 @@
 <!--Body part of the website-->
 
 
-<body>
+<body style="background-color: rgb(240, 217, 189);">
 
-    <a href="https://www.pvrcinemas.com/"target=_blank title="PVR cinamas">
-    <img src=
-    "/Images/1.Logo.png"
-    height="200", width="300" 
-    alt="movie time gif" title="movie Ticket Logo"
-    >
-
+   
     <!--Heading for welcome page-->
-    <h1>Welcome to the Movie Tickets</h1>
+    <h1 style="color:rgb(12, 133, 238)">Welcome to the Movie Tickets</h1>
+
+  <a href="2.shows.html"target=_blank title="We are redirecting to the second page">
+    Shows 
+    <br>
+     <br>
+      <br>
+
+
+    </a>
 
     <img src=
     "/Images/2.movie time.gif"
@@ -37,7 +44,7 @@
     alt="movie time gif" 
     title="movie time"
     >
-    <img src=
+        <img src=
     "/Images/3.gabbar.gif"
     height="300", width="300" 
     alt="gabbar gif" 
@@ -46,36 +53,115 @@
     <br>
 
     <!--Audio Addes-->
+
+     <audio controls autoplay muted src=
+    "/audio/Neon nights - Patrick Patrikios.mp3" title="Neon nights">
+    </audio>  
+
     <audio controls autoplay muted src=
     "/audio/Woosh.wav" title="Woosh sound">
     </audio>
+     
+    <br>
 
-    <audio controls autoplay muted src=
-    "/audio/Neon nights - Patrick Patrikios.mp3" title="Neon nights">
-    </audio>    
-<!-- Adding Video file in our HTML page -->
+    <table>
 
-<video src=
-"video/trailer1.mp4"
-hight = 400, width =600 controls autoplay muted> 
-Trailer1
-</video>
+        <tr bgcolor="Grey"align="center" width="700">Show
+
+        <th width="100">Show1</th>
+        <th width="100">Show2</th>
+        <th width="100">Show3</th>
+        
+         </tr>
+
+        <tr bgcolor="magenta" align="center">Timing
+
+        <td width="90">09:00-12:00</td>
+        <td width="90">12:00-15:00</td>
+        <td width="90">15:00-18:00</td>
+
+         </tr>
+
+    </table>
+
     
     <!-- Hello heading-->
 
-   <h3>We are showing today</h3>
+   <h3 style="color:rgb(16, 206, 206)">We are showing today</h3>
     
     <!--Paragraph for the website page-->
-
+    <p>Your Show Starts Here </p>
     <p>“The Show Starts With You.”</p>
-
-     <a href="2.shows.html"target=_blank title="We are redirecting to the page2">
-    Shows 
-    </a>
+    <p>"Your Show. Your Moment."</p>
+    <p>Make It Your Show</p>
 
 
+    <!--Offer ads-->
+<style>
+.vertical-ad {
+  height: 100px;
+  width: 300px;
+  overflow: hidden;
+  border: 2px solid #333;
+}
 
+.vertical-text {
+  animation: scroll-up 8s linear infinite;
+}
+
+@keyframes scroll-up {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+</style>
+</head>
+<body>
+
+<div class="vertical-ad">
+  <div class="vertical-text">
+    <p>🎉 Kids Play Zone Now Open!</p>
+    <p>🍿 Special Popcorn Combo Available</p>
+    <p>🎥 Experience Movies in 3 Premium Screens</p>
+  </div>
+</div>
+
+       
+    <!--Menu List Unordred-->
+<h4 style="color:blueviolet">** Today's Menu **</h4>
+<h3 style="color:rgb(213, 2, 86)">Drinks</h3>
+<u1>
+    <li>Salted Popcorn</li>
+     <li>Caramalized Popcorn</li>
+      <li>Diet Coke</li>
+       <li>coke</li>
+       <li>Water</li>
+</u1>
+<!--Ordred List-->
+<h4 style="color:blueviolet" >** Main Course **</h4>
+<ol>
+    <li>Pav Bhaji</li>
+    <li>Misal Pav</li>
+    <li>Dal Rice</li>
+    <li>Chicken Curry</li>
+</ol>
+
+<!--Description List-->
+<dl>
+    <dt style="color:rgb(5, 0, 242)">Ground floor</dt>
+    <dd style="color:rgb(248, 4, 73)">Canteen,Playground,Fun Zone </dd>
     
+    <dt style="color:rgb(5, 0, 242)">First floor</dt> 
+    <dd style="color:rgb(248, 4, 73)">Screen1, Screen2, Screen3</dd>     
+    
+</dl>
+
+<a href="3.About us.html"target=_blank title="We are redirecting to the second page">
+    About Us 
+    <br>
+
+<!--we can add Ads or external website -->
+<iframe src="3.About us.html" hight="200", width="500"></iframe>
+   
 </body>
 
 </html>
